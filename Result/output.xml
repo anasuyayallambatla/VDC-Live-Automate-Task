@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180404 02:07:51.801" generator="Robot 3.0.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\AnuSatish\IdeaProjects\VDC Task\Test\WebpageTest.robot" id="s1" name="WebpageTest">
+<test id="s1-t1" name="VDC live web page test cases">
+<kw name="Open VDC Website in Chrome and maximize the window and then Verify the home page title">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>url=${URL}</arg>
+<arg>browser=firefox</arg>
+</arguments>
+<msg timestamp="20180404 02:07:52.077" level="INFO">Opening browser 'firefox' to base url 'https://vdc-live.com/viasys/public/'.</msg>
+<status status="PASS" endtime="20180404 02:08:01.939" starttime="20180404 02:07:52.077"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180404 02:08:02.105" starttime="20180404 02:08:01.939"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Website launched successfully</arg>
+</arguments>
+<status status="PASS" endtime="20180404 02:08:02.116" starttime="20180404 02:08:02.107"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:02.159" level="INFO">Page title is 'Viasys VDC Live'.</msg>
+<status status="PASS" endtime="20180404 02:08:02.160" starttime="20180404 02:08:02.118"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Homepage Title Verified</arg>
+</arguments>
+<status status="PASS" endtime="20180404 02:08:02.167" starttime="20180404 02:08:02.160"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${sleep}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:05.173" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180404 02:08:05.174" starttime="20180404 02:08:02.170"></status>
+</kw>
+<status status="PASS" endtime="20180404 02:08:05.175" starttime="20180404 02:07:52.076"></status>
+</kw>
+<kw name="Click on Login with Valid Credentials">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="title"]/div[6]/button[1]</arg>
+</arguments>
+<msg timestamp="20180404 02:08:05.178" level="INFO">Clicking button 'xpath://*[@id="title"]/div[6]/button[1]'.</msg>
+<status status="PASS" endtime="20180404 02:08:05.759" starttime="20180404 02:08:05.177"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${sleep}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:08.767" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180404 02:08:08.767" starttime="20180404 02:08:05.759"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="auth_user_email"]</arg>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:08.767" level="INFO">Typing text 'anusatish80@gmail.com' into text field 'xpath://*[@id="auth_user_email"]'.</msg>
+<status status="PASS" endtime="20180404 02:08:08.929" starttime="20180404 02:08:08.767"></status>
+</kw>
+<kw name="Input Password" library="Selenium2Library">
+<doc>Types the given password into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="auth_user_password"]</arg>
+<arg>${pwd}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:08.931" level="INFO">Typing password into text field 'xpath://*[@id="auth_user_password"]'.</msg>
+<status status="PASS" endtime="20180404 02:08:08.992" starttime="20180404 02:08:08.930"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="submit_record__row"]/td[2]/input[1]</arg>
+</arguments>
+<msg timestamp="20180404 02:08:08.993" level="INFO">Clicking element 'xpath://*[@id="submit_record__row"]/td[2]/input[1]'.</msg>
+<status status="PASS" endtime="20180404 02:08:17.423" starttime="20180404 02:08:08.992"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>Welcome</arg>
+<arg>timeout=${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20180404 02:08:17.498" starttime="20180404 02:08:17.429"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${sleep}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:20.505" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180404 02:08:20.505" starttime="20180404 02:08:17.499"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Logged in successfully</arg>
+</arguments>
+<status status="PASS" endtime="20180404 02:08:20.505" starttime="20180404 02:08:20.505"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="title"]/div[3]/button[2]</arg>
+</arguments>
+<msg timestamp="20180404 02:08:20.508" level="INFO">Clicking button 'xpath://*[@id="title"]/div[3]/button[2]'.</msg>
+<status status="PASS" endtime="20180404 02:08:22.996" starttime="20180404 02:08:20.508"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${sleep}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:25.997" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180404 02:08:25.997" starttime="20180404 02:08:22.996"></status>
+</kw>
+<status status="PASS" endtime="20180404 02:08:25.997" starttime="20180404 02:08:05.176"></status>
+</kw>
+<kw name="Click on Login with invalid Credentials">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="title"]/div[6]/button[1]</arg>
+</arguments>
+<msg timestamp="20180404 02:08:25.999" level="INFO">Clicking button 'xpath://*[@id="title"]/div[6]/button[1]'.</msg>
+<status status="PASS" endtime="20180404 02:08:26.480" starttime="20180404 02:08:25.998"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="auth_user_email"]</arg>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:26.481" level="INFO">Typing text 'anusatish80@gmail.com' into text field 'xpath://*[@id="auth_user_email"]'.</msg>
+<status status="PASS" endtime="20180404 02:08:26.599" starttime="20180404 02:08:26.480"></status>
+</kw>
+<kw name="Input Password" library="Selenium2Library">
+<doc>Types the given password into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="auth_user_password"]</arg>
+<arg>${inpwd}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:26.601" level="INFO">Typing password into text field 'xpath://*[@id="auth_user_password"]'.</msg>
+<status status="PASS" endtime="20180404 02:08:26.671" starttime="20180404 02:08:26.600"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="submit_record__row"]/td[2]/input[1]</arg>
+</arguments>
+<msg timestamp="20180404 02:08:26.672" level="INFO">Clicking element 'xpath://*[@id="submit_record__row"]/td[2]/input[1]'.</msg>
+<status status="PASS" endtime="20180404 02:08:27.288" starttime="20180404 02:08:26.671"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>Invalid login</arg>
+<arg>timeout=${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20180404 02:08:27.316" starttime="20180404 02:08:27.288"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Invalid Login</arg>
+</arguments>
+<status status="PASS" endtime="20180404 02:08:27.317" starttime="20180404 02:08:27.317"></status>
+</kw>
+<status status="PASS" endtime="20180404 02:08:27.318" starttime="20180404 02:08:25.998"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${sleep}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:30.332" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180404 02:08:30.333" starttime="20180404 02:08:27.319"></status>
+</kw>
+<kw name="Check Search button">
+<kw name="Go Back" library="Selenium2Library">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" endtime="20180404 02:08:32.642" starttime="20180404 02:08:30.333"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="search_input"]</arg>
+<arg>${SEARCH_TEXTBOX}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:32.645" level="INFO">Typing text 'Apartment' into text field 'xpath://*[@id="search_input"]'.</msg>
+<status status="PASS" endtime="20180404 02:08:32.744" starttime="20180404 02:08:32.642"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="title"]/div[5]/button</arg>
+</arguments>
+<msg timestamp="20180404 02:08:32.745" level="INFO">Clicking button 'xpath://*[@id="title"]/div[5]/button'.</msg>
+<status status="PASS" endtime="20180404 02:08:33.154" starttime="20180404 02:08:32.744"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath:/html/body/div[4]/div[1]/div[2]/div[3]/div[2]/div/div[1]/div[3]/img</arg>
+<arg>timeout=${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20180404 02:08:33.210" starttime="20180404 02:08:33.155"></status>
+</kw>
+<kw name="Click Image" library="Selenium2Library">
+<doc>Clicks an image identified by ``locator``.</doc>
+<arguments>
+<arg>css:#preview_LrBpwykbenOJCjnJ_search &gt; img:nth-child(1)</arg>
+</arguments>
+<msg timestamp="20180404 02:08:33.212" level="INFO">Clicking image 'css:#preview_LrBpwykbenOJCjnJ_search &gt; img:nth-child(1)'.</msg>
+<status status="PASS" endtime="20180404 02:08:33.766" starttime="20180404 02:08:33.211"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Image is clicked</arg>
+</arguments>
+<status status="PASS" endtime="20180404 02:08:33.771" starttime="20180404 02:08:33.767"></status>
+</kw>
+<status status="PASS" endtime="20180404 02:08:33.772" starttime="20180404 02:08:30.333"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${sleep}</arg>
+</arguments>
+<msg timestamp="20180404 02:08:36.785" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180404 02:08:36.786" starttime="20180404 02:08:33.773"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180404 02:08:39.226" starttime="20180404 02:08:36.788"></status>
+</kw>
+<tags>
+<tag>DEBUG</tag>
+</tags>
+<status status="PASS" endtime="20180404 02:08:39.226" critical="yes" starttime="20180404 02:07:52.075"></status>
+</test>
+<doc>VDC Live Webpage Test</doc>
+<status status="PASS" endtime="20180404 02:08:39.229" starttime="20180404 02:07:51.818"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">DEBUG</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="WebpageTest" pass="1">WebpageTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
