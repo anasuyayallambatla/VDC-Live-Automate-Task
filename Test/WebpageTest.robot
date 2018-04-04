@@ -17,7 +17,7 @@ ${sleep}          3s
 *** Test Cases ***
 VDC live web page test cases
     [Tags]    DEBUG
-      Open VDC Website in Chrome and maximize the window and then Verify the home page title
+      Open VDC Website in Firefox and maximize the window and then Verify the home page title
       Click on Login with Valid Credentials
       Click on Login with invalid Credentials
       Sleep          ${sleep}
@@ -26,7 +26,7 @@ VDC live web page test cases
       [Tear Down]   Close Browser
 
 *** Keywords ***
-Open VDC Website in Chrome and maximize the window and then Verify the home page title
+Open VDC Website in Firefox and maximize the window and then Verify the home page title
         Open Browser     url=${URL}     browser=firefox
         Maximize Browser Window
         Log to Console   Website launched successfully

@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3d4525-11cc-4d9f-8735-c857e33aa249" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Result/geckodriver.log" afterPath="$PROJECT_DIR$/Result/geckodriver.log" />
+      <change beforePath="$PROJECT_DIR$/Result/log.html" afterPath="$PROJECT_DIR$/Result/log.html" />
+      <change beforePath="$PROJECT_DIR$/Result/output.xml" afterPath="$PROJECT_DIR$/Result/output.xml" />
+      <change beforePath="$PROJECT_DIR$/Result/report.html" afterPath="$PROJECT_DIR$/Result/report.html" />
+      <change beforePath="$PROJECT_DIR$/Result/selenium-screenshot-21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Test/WebpageTest.robot" afterPath="$PROJECT_DIR$/Test/WebpageTest.robot" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +23,8 @@
       <file leaf-file-name="WebpageTest.robot" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/WebpageTest.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="223">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -351,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/WebpageTest.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="223">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding />
         </state>
       </provider>
